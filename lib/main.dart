@@ -4,7 +4,7 @@ import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
 
 void main() {
-  // changes from t
+  // changes from n
   runApp(const MyApp());
 }
 
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-        title: 'Flutter Demo t',
+        title: 'Flutter Demo n',
         theme: ThemeData(
           // This is the theme of your application.
           //
@@ -62,6 +62,7 @@ class HomeController extends GetxController {
     SelectionModel(name: "8", selected: false, id: "8"),
     SelectionModel(name: "9", selected: false, id: "9"),
     SelectionModel(name: "10", selected: false, id: "10"),
+    SelectionModel(name: "11", selected: false, id: "11"),
   ]);
 
   RxList<String> ids = RxList([]);
